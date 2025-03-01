@@ -30,6 +30,8 @@
 - Commutative: $A \cdot B = B \cdot A$ or $A + B = B + A$
 - Assosiative: $(A \cdot B) \cdot C = A \cdot (B \cdot C)$ or $(A + B) + C = A + (B + C)$
 
+**Note:** .' = + and +' = .
+
 ### Advanced identities
 
 - Note that $A$ and $B$ could refer to any complex Boolean expression
