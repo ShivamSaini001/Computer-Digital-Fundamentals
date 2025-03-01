@@ -14,15 +14,15 @@ Boolean Algebra consists of fundamental operators used in logic circuits, progra
 
 | **Operator** | **Symbol** | **Procedure Name** | **Name**        | **Truth Table Example**     |
 |-------------|-----------|---------------------|-------------------|-----------------------------|
-| AND        | `.` (or `∧`) | Intersection or <br>Multiplication  | Conjunction        |  `A . B` <br> `0 . 0 = 0` <br> `0 . 1 = 0` <br> `1 . 0 = 0` <br> `1 . 1 = 1` |
-| OR         | `+` (or `∨`) | Union or <br>Addition  | Disjunction        |  `A + B` <br> `0 + 0 = 0` <br> `0 + 1 = 1` <br> `1 + 0 = 1` <br> `1 + 1 = 1` |
-| NOT        | `'` or `¯` (or `¬`) | Complement or <br> Inversion | Negation           | `A'` <br> `0' = 1` <br> `1' = 0` |
-| NAND       | ↑            |         | NOT AND            |  `A ↑ B` <br> `0 ↑ 0 = 1` <br> `0 ↑ 1 = 1` <br> `1 ↑ 0 = 1` <br> `1 ↑ 1 = 0` |
-| XOR        | ⊕           |         | Exclusive OR      |  `A ⊕ B` <br> `0 ⊕ 0 = 0` <br> `0 ⊕ 1 = 1` <br> `1 ⊕ 0 = 1` <br> `1 ⊕ 1 = 0` |
-| NOR        | ↓            |         | NOT OR             |  `A ↓ B` <br> `0 ↓ 0 = 1` <br> `0 ↓ 1 = 0` <br> `1 ↓ 0 = 0` <br> `1 ↓ 1 = 0` |
-| XNOR       | ⊙           |         | Exclusive NOR     |  `A ⊙ B` <br> `0 ⊙ 0 = 1` <br> `0 ⊙ 1 = 0` <br> `1 ⊙ 0 = 0` <br> `1 ⊙ 1 = 1` |
+| AND        | `.` (or `∧`) | Intersection or <br>Multiplication  | Conjunction     |  `A . B = Y` <br> `0 . 0 = 0` <br> `0 . 1 = 0` <br> `1 . 0 = 0` <br> `1 . 1 = 1` |
+| OR         | `+` (or `∨`) | Union or <br>Addition  | Disjunction        |  `A + B = Y` <br> `0 + 0 = 0` <br> `0 + 1 = 1` <br> `1 + 0 = 1` <br> `1 + 1 = 1` |
+| NOT        | `'` or `¯` (or `¬`) | Complement or <br> Inversion | Negation           | `A' = Y` <br> `0' = 1` <br> `1' = 0` |
+| NAND       | ↑            |         | NOT AND            |  `A ↑ B = Y` <br> `0 ↑ 0 = 1` <br> `0 ↑ 1 = 1` <br> `1 ↑ 0 = 1` <br> `1 ↑ 1 = 0` |
+| XOR        | ⊕           |         | Exclusive OR      |  `A ⊕ B = Y` <br> `0 ⊕ 0 = 0` <br> `0 ⊕ 1 = 1` <br> `1 ⊕ 0 = 1` <br> `1 ⊕ 1 = 0` |
+| NOR        | ↓            |         | NOT OR             |  `A ↓ B = Y` <br> `0 ↓ 0 = 1` <br> `0 ↓ 1 = 0` <br> `1 ↓ 0 = 0` <br> `1 ↓ 1 = 0` |
+| XNOR       | ⊙           |         | Exclusive NOR     |  `A ⊙ B = Y` <br> `0 ⊙ 0 = 1` <br> `0 ⊙ 1 = 0` <br> `1 ⊙ 0 = 0` <br> `1 ⊙ 1 = 1` |
 
-> [!IMPORTANT]
+📝 **Important Note:**
 
 - **AND (.)**: True when both inputs are **true**.
 - **OR (+)**: True when at least **one** input is **true**.
@@ -32,27 +32,33 @@ Boolean Algebra consists of fundamental operators used in logic circuits, progra
 - **NOR (↓)**: True when both inputs are **false**.
 - **XNOR (⊙)**: True when inputs are **the same**.
 
-
-
-
 ### Basic logic gates
 
 ![Basic Gates](./assets/images/basic-gates.png)
 
-## Notation and definitions
+### Laws of Boolean Algebra
 
-- *Complement*: opposite of a variable value
-- *Multiplication*: represent bit-wise AND
-- *Addition*: represent bit-wise OR
-- *Operator precedence*: `NOT > AND > OR`
-- *Input variables*: represent a binary input value
-- *Output variables*: evaluation of a boolean expression represents a binary output value
-- *Literal*: each occurance of a variable in the expression
-- *Term*: minimum unit of the expression. The form determines the first-level gate unit
 
-## Boolean identities
 
-> The key to simplifying Boolean expressions is to learn the Identities
+
+| **Name of Law**  | **AND Form** | **OR Form** | 
+|------------------|--------------|-------------|
+| Identity law     | 𝐴 . 1 = 𝐴     | 𝐴 + 0 = 𝐴   |
+| Null law         | 𝐴 . 0 = 0     | 𝐴 + 1 = 1   |
+| Idempotent law   | 𝐴 . 𝐴 = 𝐴     | 𝐴 + 𝐴 = 𝐴  |  
+| Inverse law      | 𝐴 . 𝐴' = 0     | 𝐴 + 𝐴'= 1    | 
+| Commutative law  | 𝐴 . 𝐵 = 𝐵 . 𝐴   | 𝐴 + 𝐵 = 𝐵 + 𝐴 | 
+| Associative law  | 𝐴 . (𝐵 . 𝐶) = (𝐴 . 𝐵) . 𝐶    |    𝐴 + (𝐵 + 𝐶) = (𝐴 + 𝐵) + 𝐶 |  
+| Distributive law | 𝐴 . (𝐵 + 𝐶) = 𝐴 . 𝐵 + 𝐴 . 𝐶   | 𝐴 + (𝐵𝐶) = (𝐴 + 𝐵)(𝐴 + 𝐶)    | 
+| Absorption law   | 𝐴(𝐴 + 𝐵) = 𝐴  <br> 𝐴 . (𝐴' + 𝐵) = 𝐴 . 𝐵   |  𝐴 + 𝐴𝐵 = 𝐴  <br> 𝐴 + (𝐴' . 𝐵) = 𝐴 + 𝐵     | 
+| De Morgan's law  |            |         | 
+
+
+
+
+
+
+
 
 ### Basic identities
 
