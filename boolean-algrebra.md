@@ -52,6 +52,10 @@ Boolean Algebra consists of fundamental operators used in logic circuits, progra
 | De Morgan's law  | (AB)' = A' + B' <br> (ABC...)' = A' + B' + C' + ...  |  (A + B)' = A' . B' <br> (A + B + C + ...)' = A' . B' . C' . ... | 
 
 
+### Questions and Solutions.
 
+<img src="./assets/images/Boolean_algebra_ques_1.png" />
+<img src="./assets/images/Boolean_algebra_ques_2.png" />
+<img src="./assets/images/Boolean_algebra_ques_3.png" />
 
 
