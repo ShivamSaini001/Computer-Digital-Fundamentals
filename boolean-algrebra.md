@@ -22,11 +22,11 @@ Boolean Algebra consists of fundamental operators used in logic circuits, progra
 | NOR        | ↓            |         | NOT OR             |  `A ↓ B` <br> `0 ↓ 0 = 1` <br> `0 ↓ 1 = 0` <br> `1 ↓ 0 = 0` <br> `1 ↓ 1 = 0` |
 | XNOR       | ⊙           |         | Exclusive NOR     |  `A ⊙ B` <br> `0 ⊙ 0 = 1` <br> `0 ⊙ 1 = 0` <br> `1 ⊙ 0 = 0` <br> `1 ⊙ 1 = 1` |
 
-## Summary
+> [!IMPORTANT]
 
-- **AND (∧)**: True when both inputs are **true**.
-- **OR (∨)**: True when at least **one** input is **true**.
-- **NOT (¬)**: Inverts the input.
+- **AND (.)**: True when both inputs are **true**.
+- **OR (+)**: True when at least **one** input is **true**.
+- **NOT (¯ or ')**: Inverts the input.
 - **XOR (⊕)**: True when inputs are **different**.
 - **NAND (↑)**: True unless both inputs are **true**.
 - **NOR (↓)**: True when both inputs are **false**.
