@@ -2,7 +2,7 @@
 
 ## Basic logic gates
 
-![Basic Gates](./figures/basic-gates.png)
+![Basic Gates](./assets/images/basic-gates.png)
 
 ## Notation and definitions
 
