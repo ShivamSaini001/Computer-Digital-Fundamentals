@@ -36,7 +36,7 @@ for example: let suppose `X` is boolean variable then possible boolean functions
 2<sup>n</sup> = 11  (n ∈ N)  
 _correct option (d) none_
 
-### Representation of Boolean Functions: 
+### Representation of Boolean Functions? 
 There are two standard ways to represent boolean functions --   
 1. **Sum of Products (SOP):** 
    - It is also called **Disjunctive Normal Form (DNF)**.
@@ -49,8 +49,19 @@ There are two standard ways to represent boolean functions --
    - **e.g.,** F = (A + B) . (B + C) . (A + C) <br> F = (A' + B + C) . (A + B' + C').
    - The **&pi; (Pi) symbol** is used to denote the product of maxterms. <br> **Representation** F(A, B, C) = &pi;M(2, 4, 5, 6)
 
-### Boolean Algebra Operators?
+### Minimization of Boolean Functions?   
+Minimization is the process of reducing a Boolean function to its simplest (smallest) form, which helps in designing optimized logic circuits. The main methods used for Boolean function minimization are:
+1. **Using Boolean Algebra:** This method uses Boolean laws and theorems to simplify expressions manually.
+2. **Using Karnaugh Map (K-map) Method:** A K-map is a graphical way to minimize Boolean expressions for up to 4 or 5 variables.
 
+**Important Results:**
+- Complete SOP boolean function Always gives result `1`.   
+  e.g., For two variables complete SOP: &nbsp;  F(A, B) = AB + A'B + AB' + A'B' <br>
+  **Minimize** <br> = AB + A'B + AB' + A'B' <br> = B(A + A') + B'(A + A') <br> = B.1 + B'.1 <br> = B + B' <br> = 1
+- Complete POS boolean function Always gives result `0`.   
+  e.g., For two variables complete POS: &nbsp; F(A, B) = (A + B)(A + B')(A' + B)(A' + B') <br>
+
+### Boolean Algebra Operators?
 Boolean Algebra consists of fundamental operators used in logic circuits, programming, and mathematical expressions.
 
 | **Operator** | **Symbol** | **Procedure Name** | **Name**        | **Truth Table Example**     |
