@@ -10,20 +10,36 @@ have an infinite number of variables.
 
 ### Boolean Function?
 A function that contains **boolean variables** (𝐴, 𝐵, 𝐶, etc.) and their **compliments** (𝐴', 𝐵', 𝐶', etc.) with **boolean operations** (`+`, `.`) is called boolean function.
-e.g.,   
+e.g.,   f(A,B,C) = AB' + B'C + CA  
 **!Important Note:** Number of maximum boolean functions can be formed using `n` boolean variables = **2<sup>2<sup>n</sup></sup>**
 
 **Ques. How many boolean functions can be formed using one boolean variable?**  
 Number of boolean function can be formed using n boolean variable is = 2<sup>2<sup>n</sup></sup>  
 then, 
-number of boolean function can be formed using 1 boolean variable = 2<sup>2<sup>1</sup></sup> = 4<sup>1</sup> = 4.  
+number of boolean function can be formed using 1 boolean variable = 2<sup>2<sup>1</sup></sup> = 2<sup>2</sup> = 4.  
 for example: let suppose `X` is boolean variable then possible boolean functions is  
 - X
 - X'
 - X + X'
 - X . X'
 
+**Ques. How many maximum boolean functions can be formed using 3 boolean variables X, Y, Z ?**  
+**Ans.** 2<sup>2<sup>3</sup></sup> = 2<sup>8</sup> = 256.
 
+**Ques. There are maximum 2048 boolean functions, How many different variables are used ?**  
+a) 12  
+b) 6   
+c) 11  
+d) None  
+**Ans.** 2048 = 2<sup>11</sup>   
+2<sup>2<sup>n</sup></sup> = 2<sup>11</sup>  
+2<sup>n</sup> = 11  (n ∈ N)  
+_correct option (d) none_
+
+### Representation of Boolean Functions --  
+There are two standard ways to represent boolean functions.  
+1. Sum of Products (SOP)
+2. Product of Sums (POS)
 
 ### Boolean Algebra Operators?
 
