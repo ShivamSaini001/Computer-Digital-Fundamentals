@@ -111,3 +111,32 @@ Boolean Algebra consists of fundamental operators used in logic circuits, progra
 <img src="./assets/images/Boolean_algebra_ques_3.png" />
 
 
+## K-Map (Karnaugh Map) Method: 
+In many digital circuits and practical problems, we need to find expressions with minimum variables. We can minimize Boolean expressions of 3, 4 variables very easily using K-map without using any Boolean algebra theorems.
+K-map can take two forms:
+1. Sum of product (SOP)
+2. Product of Sum (POS)
+
+### How to create K-Map for Sum of product (SOP) and Product of Sum (POS)
+
+A) K-Map for two variables
+
+
+
+B) K-Map for three variables
+C) K-Map for four variables
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
