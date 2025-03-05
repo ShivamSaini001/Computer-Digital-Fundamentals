@@ -27,10 +27,10 @@ for example: let suppose `X` is boolean variable then possible boolean functions
 **Ans.** 2<sup>2<sup>3</sup></sup> = 2<sup>8</sup> = 256.
 
 **Ques. There are maximum 2048 boolean functions, How many different variables are used ?**  
-a) 12  
-b) 6   
-c) 11  
-d) None  
+&emsp; a) 12  
+&emsp; b) 6   
+&emsp; c) 11  
+&emsp; d) None  <br>
 **Ans.** 2<sup>2<sup>n</sup></sup> = 2048      
 2<sup>2<sup>n</sup></sup> = 2<sup>11</sup>  
 2<sup>n</sup> = 11  (n ∈ N)  
@@ -41,12 +41,13 @@ There are two standard ways to represent boolean functions --
 1. **Sum of Products (SOP):** 
    - It is also called **Disjunctive Normal Form (DNF)**.
    - Each term in SOP is called a **minterm**.
-   - e.g., F = (A ⋅ B) + (B ⋅ C) + (A ⋅ C) <br> 𝐹 = 𝐴𝐵'𝐶 + 𝐴𝐵𝐶' + 𝐴𝐵𝐶 
+   - **e.g.,** F = (A ⋅ B) + (B ⋅ C) + (A ⋅ C) <br> 𝐹 = 𝐴𝐵'𝐶 + 𝐴𝐵𝐶' + 𝐴𝐵𝐶
+   - The **Σ (Sigma)** symbol is used to denote the sum of minterms. <br> **Representation** F(A, B, C) = Σm(0, 1, 3, 7)
 3. **Product of Sums (POS):**
    - It is also called **Conjunctive Normal Form (CNF)**.
    - Each term in POS is called a **maxterm**.
-   - e.g., F = (A + B) . (B + C) . (A + C) <br> F = (A' + B + C) . (A + B' + C').
-   - 
+   - **e.g.,** F = (A + B) . (B + C) . (A + C) <br> F = (A' + B + C) . (A + B' + C').
+   - The **&pi; (Pi) symbol** is used to denote the product of maxterms. <br> **Representation** F(A, B, C) = &pi;M(2, 4, 5, 6)
 
 ### Boolean Algebra Operators?
 
