@@ -31,15 +31,22 @@ a) 12
 b) 6   
 c) 11  
 d) None  
-**Ans.** 2048 = 2<sup>11</sup>   
+**Ans.** 2<sup>2<sup>n</sup></sup> = 2048      
 2<sup>2<sup>n</sup></sup> = 2<sup>11</sup>  
 2<sup>n</sup> = 11  (n ∈ N)  
 _correct option (d) none_
 
-### Representation of Boolean Functions --  
-There are two standard ways to represent boolean functions.  
-1. Sum of Products (SOP)
-2. Product of Sums (POS)
+### Representation of Boolean Functions: 
+There are two standard ways to represent boolean functions --   
+1. **Sum of Products (SOP):** 
+   - It is also called **Disjunctive Normal Form (DNF)**.
+   - Each term in SOP is called a **minterm**.
+   - e.g., F = (A ⋅ B) + (B ⋅ C) + (A ⋅ C) <br> 𝐹 = 𝐴𝐵'𝐶 + 𝐴𝐵𝐶' + 𝐴𝐵𝐶 
+3. **Product of Sums (POS):**
+   - It is also called **Conjunctive Normal Form (CNF)**.
+   - Each term in POS is called a **maxterm**.
+   - e.g., F = (A + B) . (B + C) . (A + C) <br> F = (A' + B + C) . (A + B' + C').
+   - 
 
 ### Boolean Algebra Operators?
 
