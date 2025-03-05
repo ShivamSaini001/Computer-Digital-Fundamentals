@@ -8,12 +8,29 @@ have an infinite number of variables.
 - `0` represents `false`, (or `off` is represented by `0`)
 - `1` represents `true`, (or `on` is represented by `1`)
 
+### Boolean Function?
+A function that contains **boolean variables** (𝐴, 𝐵, 𝐶, etc.) and their **compliments** (𝐴', 𝐵', 𝐶', etc.) with **boolean operations** (`+`, `.`) is called boolean function.
+e.g.,   
+**!Important Note:** Number of maximum boolean functions can be formed using `n` boolean variables = **2<sup>2<sup>n</sup></sup>**
+
+**Ques. How many boolean functions can be formed using one boolean variable?**  
+Number of boolean function can be formed using n boolean variable is = 2<sup>2<sup>n</sup></sup>  
+then, 
+number of boolean function can be formed using 1 boolean variable = 2<sup>2<sup>1</sup></sup> = 4<sup>1</sup> = 4.  
+for example: let suppose `X` is boolean variable then possible boolean functions is  
+- X
+- X'
+- X + X'
+- X . X'
+
+
+
 ### Boolean Algebra Operators?
 
 Boolean Algebra consists of fundamental operators used in logic circuits, programming, and mathematical expressions.
 
 | **Operator** | **Symbol** | **Procedure Name** | **Name**        | **Truth Table Example**     |
-|-------------|-----------|---------------------|-------------------|-----------------------------|
+|--------------|-----------|---------------------|-----------------|-----------------------------|
 | AND        | `.` (or `∧`) | Intersection or <br>Multiplication  | Conjunction     |  `A . B = Y` <br> `0 . 0 = 0` <br> `0 . 1 = 0` <br> `1 . 0 = 0` <br> `1 . 1 = 1` |
 | OR         | `+` (or `∨`) | Union or <br>Addition  | Disjunction        |  `A + B = Y` <br> `0 + 0 = 0` <br> `0 + 1 = 1` <br> `1 + 0 = 1` <br> `1 + 1 = 1` |
 | NOT        | `'` or `¯` (or `¬`) | Complement or <br> Inversion | Negation           | `A' = Y` <br> `0' = 1` <br> `1' = 0` |
