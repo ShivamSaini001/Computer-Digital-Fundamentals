@@ -119,12 +119,14 @@ K-map can take two forms:
 
 ### How to create K-Map for Sum of product (SOP) and Product of Sum (POS)
 
-A) K-Map for two variables
+**A) K-Map for two variables:** In the 2 variable k-map, 4 (2<sup>2</sup>) squares are required. Each square contains one term of expression with two variables.    
+<img src="./assets/images/2-variables-k-map.png" width="400px"/>
 
+**B) K-Map for three variables:** In the three variable k-map, 8 (2<sup>3</sup>) square is required. The 3-variables k-map can content either horizontally or vertically.    
+<img src="./assets/images/3-variables-k-map.png" width="400px"/>
 
-
-B) K-Map for three variables
-C) K-Map for four variables
+**C) K-Map for four variables:** In the 4 variable k-map, 16 (2<sup>4</sup>) square are required.    
+<img src="./assets/images/4-variables-k-map.png" width="600px"/>
 
 
 
