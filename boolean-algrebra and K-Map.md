@@ -38,12 +38,14 @@ _correct option (d) none_
 
 ### Representation of Boolean Functions? 
 There are two standard ways to represent boolean functions --   
-1. **Sum of Products (SOP):** 
+1. **Sum of Products (SOP):**
+   - A = 0 is represented as A' and A = 1 will be represented as A
    - It is also called **Disjunctive Normal Form (DNF)**.
    - Each term in SOP is called a **minterm**.
    - **e.g.,** F = (A ⋅ B) + (B ⋅ C) + (A ⋅ C) <br> 𝐹 = 𝐴𝐵'𝐶 + 𝐴𝐵𝐶' + 𝐴𝐵𝐶
    - The **Σ (Sigma)** symbol is used to denote the sum of minterms. <br> **Representation** F(A, B, C) = Σm(0, 1, 3, 7)
 3. **Product of Sums (POS):**
+   - A = 0 is represented as A and A = 1 will be represented as A'.
    - It is also called **Conjunctive Normal Form (CNF)**.
    - Each term in POS is called a **maxterm**.
    - **e.g.,** F = (A + B) . (B + C) . (A + C) <br> F = (A' + B + C) . (A + B' + C').
@@ -112,7 +114,10 @@ Boolean Algebra consists of fundamental operators used in logic circuits, progra
 
 
 ## K-Map (Karnaugh Map) Method: 
-In many digital circuits and practical problems, we need to find expressions with minimum variables. We can minimize Boolean expressions of 3, 4 variables very easily using K-map without using any Boolean algebra theorems.
+In many digital circuits and practical problems, we need to find expressions with minimum variables. We can minimize Boolean expressions of 3, 4 variables very easily using K-map without using any Boolean algebra theorems.   
+Number of cells in K-map = number of possible cases   
+No. of possible cases = 2<sup>n</sup>   
+n -> is the number of input variables.   
 K-map can take two forms:
 1. Sum of product (SOP)
 2. Product of Sum (POS)
@@ -129,7 +134,7 @@ K-map can take two forms:
 <img src="./assets/images/4-variables-k-map.png" width="600px"/>
 
 
-
+### How to insert SOP representation of Boolean Function into k-map?
 
 
 
