@@ -19,10 +19,10 @@ Number of boolean function can be formed using n boolean variable is = 2<sup>2<s
 then, 
 number of boolean function can be formed using 1 boolean variable = 2<sup>2<sup>1</sup></sup> = 2<sup>2</sup> = 4.  
 for example: let suppose `X` is boolean variable then possible boolean functions is  
-- X
-- X'
-- X + X'
-- X . X'
+- f(X) = X
+- f(X) = X'
+- f(X) = X + X'
+- f(X) = X . X'
 
 **Ques. How many maximum boolean functions can be formed using 3 boolean variables X, Y, Z ?**  
 **Ans.** 2<sup>2<sup>3</sup></sup> = 2<sup>8</sup> = 256.
