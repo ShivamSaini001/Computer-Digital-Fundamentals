@@ -11,6 +11,7 @@ have an infinite number of variables.
 ### Boolean Function?
 A function that contains **boolean variables** (𝐴, 𝐵, 𝐶, etc.) and their **compliments** (𝐴', 𝐵', 𝐶', etc.) with **boolean operations** (`+`, `.`) is called boolean function.
 e.g.,   f(A,B,C) = AB' + B'C + CA  
+<br>
 **!Important Note:** Number of maximum boolean functions can be formed using `n` boolean variables = **2<sup>2<sup>n</sup></sup>**
 
 **Ques. How many boolean functions can be formed using one boolean variable?**  
