@@ -89,7 +89,7 @@ Boolean Algebra consists of fundamental operators used in logic circuits, progra
 
 ### Basic logic gates
 
-![Basic Gates](./assets/images/basic-gates.png)
+<img src="./assets/images/basic-gates.png" width="600px"/>
 
 ### Laws of Boolean Algebra
 
