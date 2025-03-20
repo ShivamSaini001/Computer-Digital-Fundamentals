@@ -103,6 +103,17 @@ Boolean Algebra consists of fundamental operators used in logic circuits, progra
 | TRUE (Tautology) | 1 |
 | FALSE (Contradiction or falsy) | 0 |
 
+📝 **Set Representation in Boolean Equation:**
+
+| **Set** | **Boolean Equation** | 
+|--------------|-------------|
+| A - B | AB' |
+| B - A  | BA' |
+| A 🔺 B | A ⊕ B or AB' + BA' |
+| A U B | A + B |
+| A B | A . B |
+
+
 ### Basic logic gates
 
 <img src="./assets/images/basic-gates.png" width="600px"/>
