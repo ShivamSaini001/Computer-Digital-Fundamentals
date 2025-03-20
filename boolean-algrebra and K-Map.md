@@ -87,6 +87,22 @@ Boolean Algebra consists of fundamental operators used in logic circuits, progra
 - **NOR (↓)**: True when both inputs are **false**.
 - **XNOR (⊙)**: True when inputs are **the same**.
 
+📝 **Important Equatios:**
+
+| **Operator** | **Equation** | 
+|--------------|-------------|
+| AND | A . B |
+| OR  | A + B |
+| NOT | A' |
+| NAND | (A . B)' |
+| NOR | (A + B)' |
+| XOR | A ⊕ B = A'B + B'A <br> A ⊕ A = 0 <br> 0 ⊕ A = A |
+| XNOR | A ⊙ B = (A ⊕ B)' <br> (A ⊕ B)' = (A'B + B'A)' <br> A ⊙ B = (A + B') . (B + A') |
+| SOP | SOP = (POS)' |
+| POS | POS = (SOP)' |
+| TRUE (Tautology) | 1 |
+| FALSE (Contradiction or falsy) | 0 |
+
 ### Basic logic gates
 
 <img src="./assets/images/basic-gates.png" width="600px"/>
