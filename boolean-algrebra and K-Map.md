@@ -110,9 +110,8 @@ Boolean Algebra consists of fundamental operators used in logic circuits, progra
 | A - B | AB' |
 | B - A  | BA' |
 | A 🔺 B | A ⊕ B or AB' + BA' |
-| A U B | A + B |
-| A B | A . B |
-
+| A ∪ B | A + B |
+| A ∩ B | A . B |
 
 ### Basic logic gates
 
